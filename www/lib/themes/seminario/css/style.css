@@ -16,20 +16,20 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; overflow-x:hidden;  
 }
 
 .info-icon { width:228px; height:232px; background:url(images/mi-info.png); background-repeat:no-repeat; }
-.info-icon-min { width:60px; height:61px; background:url(images/mi-info-min.png); background-repeat:no-repeat; }
+.info-icon-min { width:100px; height:102px; background:url(images/mi-info-min.png); background-repeat:no-repeat; }
 
 .trabajar-icon { width:218px; height:236px; background:url(images/para-trabajar.png); background-repeat:no-repeat;}
-.trabajar-icon-min { width:60px; height:65px; background:url(images/para-trabajar-min.png); background-repeat:no-repeat;}
+.trabajar-icon-min { width:100px; height:108px; background:url(images/para-trabajar-min.png); background-repeat:no-repeat;}
 
 .documentos-icon { width:231px; height:233px; background:url(images/los-documentos.png);  background-repeat:no-repeat; }
-.documentos-icon-min { width:60px; height:61px; background:url(images/los-documentos-min.png);  background-repeat:no-repeat; }
+.documentos-icon-min { width:100px; height:101px; background:url(images/los-documentos-min.png);  background-repeat:no-repeat; }
 
 .section { float:left; }
-.section ul { list-style:none; height:230px; }
+.section ul { list-style:none; height:205px; }
 .section ul li { list-style:none; }
 .section ul li a { }
 
-.min-icon { float:left; margin-left:40px; cursor:pointer;
+.min-icon { float:left; margin-left:60px; cursor:pointer;
 	-webkit-transition: margin 0.5s ease-out; 
 	-moz-transition: margin 0.5s ease-out; 
 	-o-transition: margin 0.5s ease-out;
