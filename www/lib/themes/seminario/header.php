@@ -18,4 +18,5 @@
 					las decisiones judiciales y la implementaci&oacute;n de las reformas legislativas
 				</h1>
 			</div>
+			<a class="home" href="http://fundar.org.mx/seminario" title="Seminario: Derechos humanos, presupuestos públicos y control judicial">Inicio</a>
 		
