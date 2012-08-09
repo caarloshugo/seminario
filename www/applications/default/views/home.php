@@ -1,7 +1,7 @@
 <div class="welcome">
 	<?php if($user["language"] == "es") { ?>
 		<h2>
-			Bienvenido <?php echo $user["name"];?> al Seminario: Derechos humanos, presupuestos p&uacute;blicos y poder judicial
+			Bienvenid<?php echo (isset($user["gender"])) ? "a" : "o";?> <?php echo $user["name"];?> al Seminario: Derechos humanos, presupuestos p&uacute;blicos y poder judicial
 		</h2>
 	<?php } else { ?>
 		<h2>
@@ -84,6 +84,36 @@
 				<?php } else { ?>
 					<a href="http://fundar.org.mx/seminario/" title="Sittio web del Seminari">Seminar Website</a>
 				<?php } ?>
+			</li>
+			
+			<li>
+				<a target="_blank" href="http://www.inesc.org.br/news/2012/april/budget-monitoring-from-a-human-rights-perspective" title="Budget Monitoring - From a Human Rights perspective (INESC)">
+					Budget Monitoring - From a Human Rights perspective (INESC)
+				</a>
+			</li>
+			
+			<li>
+				<a target="_blank" href="http://www.humanrightsbudgetwork.org/" title="IHRIP Institute of International Education Human rights budget work">
+					IHRIP Institute of International Education Human rights budget work
+				</a>
+			</li>
+			
+			<li>
+				<a target="_blank" href="/documents/documents/Guia-de-Analisis-Presupuestario-ACIJ.pdf" title="Guía de Análisis Presupuestario ACIJ">
+					Gu&iacute;a de An&aacute;lisis Presupuestario ACIJ
+				</a>
+			</li>
+			
+			<li>
+				<a target="_blank" href="/documents/documents/Politicas-publicas-y-presupuestos-con-perspectiva-de-derechos-humanos-OACNUDH-et-al.pdf" title="Políticas públicas y presupuestos con perspectiva de derechos humanos OACNUDH">
+					Pol&iacute;ticas p&uacute;blicas y presupuestos con perspectiva de derechos humanos OACNUDH
+				</a>
+			</li>
+			
+			<li>
+				<a target="_blank" href="/documents/documents/Revision-bibliografica.xlsx" title="Revisión bibliográfica">
+					Revisi&oacute;n bibliogr&aacute;fica
+				</a>
 			</li>
 		</ul>
 		
