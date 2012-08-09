@@ -17,7 +17,7 @@
 	
 	<div class="section info">
 		<ul>
-			<li>
+			<li class="doc">
 				<?php if($user["language"] == "es") { ?>
 					<a href="<?php print get('webURL'); ?>/documents/info/Programa_Seminario.docx" title="Programa">Programa</a>
 				<?php } else { ?>
@@ -78,7 +78,7 @@
 	
 	<div class="section documentos">
 		<ul>
-			<li>
+			<li class="link">
 				<?php if($user["language"] == "es") { ?>
 					<a href="http://fundar.org.mx/seminario/" title="Sittio web del Seminari">Sittio web del Seminario</a>
 				<?php } else { ?>
@@ -86,13 +86,13 @@
 				<?php } ?>
 			</li>
 			
-			<li>
+			<li class="link">
 				<a target="_blank" href="http://www.inesc.org.br/news/2012/april/budget-monitoring-from-a-human-rights-perspective" title="Budget Monitoring - From a Human Rights perspective (INESC)">
 					Budget Monitoring - From a Human Rights perspective (INESC)
 				</a>
 			</li>
 			
-			<li>
+			<li class="link">
 				<a target="_blank" href="http://www.humanrightsbudgetwork.org/" title="IHRIP Institute of International Education Human rights budget work">
 					IHRIP Institute of International Education Human rights budget work
 				</a>
@@ -110,7 +110,7 @@
 				</a>
 			</li>
 			
-			<li>
+			<li class="xls">
 				<a href="<?php print get('webURL'); ?>/documents/documents/Revision-bibliografica.xlsx" title="Revisión bibliográfica">
 					Revisi&oacute;n bibliogr&aacute;fica
 				</a>

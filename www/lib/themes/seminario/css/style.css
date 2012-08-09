@@ -31,8 +31,12 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; overflow-x:hidden;  
 
 .section { float:left; }
 .section ul { list-style:none; height:205px; }
-.section ul li { list-style:none; }
-.section ul li a { }
+.section ul li { margin-top:5px; list-style:none; height:18px; background:url(images/pdf.png); background-repeat:no-repeat; }
+.section ul li a { margin-left:24px; }
+
+.doc { background:url(images/doc.png) !important; background-repeat:no-repeat !important; }
+.xls { background:url(images/xls.png) !important; background-repeat:no-repeat !important; }
+.link { background:url(images/link.png) !important; background-repeat:no-repeat !important; }
 
 .min-icon { float:left; margin-left:60px; cursor:pointer;
 	-webkit-transition: margin 0.5s ease-out; 
