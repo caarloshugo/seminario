@@ -11,10 +11,15 @@
 </div>
 
 <div id="buttons">
-	<div class="icon info-icon"></div>
-	<div class="icon trabajar-icon"></div>
-	<div class="icon documentos-icon"></div>
-	
+	<?php if($user["language"] == "es") { ?>
+		<div class="icon info-icon info-icon-es"></div>
+		<div class="icon trabajar-icon trabajar-icon-es"></div>
+		<div class="icon documentos-icon documentos-icon-es"></div>
+	<?php } else { ?>
+		<div class="icon info-icon info-icon-en"></div>
+		<div class="icon trabajar-icon trabajar-icon-en"></div>
+		<div class="icon documentos-icon documentos-icon-en"></div>
+	<?php } ?>
 	<div class="section info">
 		<ul>
 			<li class="doc">
@@ -48,10 +53,17 @@
 			</li>
 		</ul>
 		
-		<div class="section-icons-min">
-			<div class="min-icon trabajar-icon-min"></div>
-			<div class="min-icon documentos-icon-min"></div>
-		</div>
+		<?php if($user["language"] == "es") { ?>
+			<div class="section-icons-min">
+				<div class="min-icon trabajar-icon-min trabajar-icon-min-es"></div>
+				<div class="min-icon documentos-icon-min documentos-icon-min-es"></div>
+			</div>
+		<?php } else { ?>
+			<div class="section-icons-min">
+				<div class="min-icon trabajar-icon-min trabajar-icon-min-en"></div>
+				<div class="min-icon documentos-icon-min documentos-icon-min-en"></div>
+			</div>
+		<?php } ?>
 	</div>
 	
 	
@@ -68,12 +80,25 @@
 			<li>
 				<a href="<?php print get('webURL'); ?>/documents/work/LP-case-study-ACIJ.pdf" title="LP case study ACIJ">LP case study ACIJ</a>
 			</li>
+			
+			<li class="doc">
+				<a href="<?php print get('webURL'); ?>/documents/work/Amasango_write_up.docx" title="Amasango write up">Amasango write up</a>
+			</li>
+			
+			
 		</ul>
 		
-		<div class="section-icons-min">
-			<div class="min-icon info-icon-min"></div>
-			<div class="min-icon documentos-icon-min"></div>
-		</div>
+		<?php if($user["language"] == "es") { ?>
+			<div class="section-icons-min">
+				<div class="min-icon info-icon-min info-icon-min-es"></div>
+				<div class="min-icon documentos-icon-min documentos-icon-min-es"></div>
+			</div>
+		<?php } else { ?>
+			<div class="section-icons-min">
+				<div class="min-icon info-icon-min info-icon-min-en"></div>
+				<div class="min-icon documentos-icon-min documentos-icon-min-en"></div>
+			</div>
+		<?php } ?>
 	</div>
 	
 	<div class="section documentos">
@@ -115,11 +140,25 @@
 					Revisi&oacute;n bibliogr&aacute;fica
 				</a>
 			</li>
+			
+			<li>
+				<a href="<?php print get('webURL'); ?>/documents/documents/Prevencion_de_incendios_en_escuelas_Cainfo.pdf" title="Prevención de incendios en escuelas Cainfo">
+					Prevenci&oacute;n de incendios en escuelas Cainfo
+				</a>
+			</li>
+			
 		</ul>
 		
-		<div class="section-icons-min">
-			<div class="min-icon info-icon-min"></div>
-			<div class="min-icon trabajar-icon-min"></div>
-		</div>
+		<?php if($user["language"] == "es") { ?>
+			<div class="section-icons-min">
+				<div class="min-icon info-icon-min info-icon-min-es"></div>
+				<div class="min-icon trabajar-icon-min trabajar-icon-min-es"></div>
+			</div>
+		<?php } else { ?>
+			<div class="section-icons-min">
+				<div class="min-icon info-icon-min info-icon-min-en"></div>
+				<div class="min-icon trabajar-icon-min trabajar-icon-min-en"></div>
+			</div>
+		<?php } ?>
 	</div>
 </div>

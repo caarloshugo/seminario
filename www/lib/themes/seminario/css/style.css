@@ -20,14 +20,20 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; overflow-x:hidden;  
     margin-top:10px;
 }
 
-.info-icon { width:228px; height:232px; background:url(images/mi-info.png); background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
-.info-icon-min { width:100px; height:102px; background:url(images/mi-info-min.png); background-repeat:no-repeat; }
+.info-icon-es { width:228px; height:232px; background:url(images/mi-info.png); background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
+.info-icon-min-es { width:100px; height:102px; background:url(images/mi-info-min.png); background-repeat:no-repeat; }
+.info-icon-en { width:228px; height:236px; background:url(images/mi-info-en.png); background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
+.info-icon-min-en { width:100px; height:104px; background:url(images/mi-info-en-min.png); background-repeat:no-repeat; }
 
-.trabajar-icon { width:218px; height:236px; background:url(images/para-trabajar.png); background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
-.trabajar-icon-min { width:100px; height:108px; background:url(images/para-trabajar-min.png); background-repeat:no-repeat;}
+.trabajar-icon-es { width:218px; height:236px; background:url(images/para-trabajar.png); background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
+.trabajar-icon-min-es { width:100px; height:108px; background:url(images/para-trabajar-min.png); background-repeat:no-repeat;}
+.trabajar-icon-en { width:218px; height:240px; background:url(images/para-trabajar-en.png); background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
+.trabajar-icon-min-en { width:100px; height:110px; background:url(images/para-trabajar-en-min.png); background-repeat:no-repeat;}
 
-.documentos-icon { width:231px; height:233px; background:url(images/los-documentos.png);  background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
-.documentos-icon-min { width:100px; height:101px; background:url(images/los-documentos-min.png);  background-repeat:no-repeat; }
+.documentos-icon-es { width:231px; height:233px; background:url(images/los-documentos.png);  background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
+.documentos-icon-min-es { width:100px; height:101px; background:url(images/los-documentos-min.png);  background-repeat:no-repeat; }
+.documentos-icon-en { width:231px; height:240px; background:url(images/los-documentos-en.png);  background-repeat:no-repeat; -webkit-box-reflect:below 20px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(white)); }
+.documentos-icon-min-en { width:100px; height:104px; background:url(images/los-documentos-en-min.png);  background-repeat:no-repeat; }
 
 .section { float:left; }
 .section ul { list-style:none; height:205px; }
