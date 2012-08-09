@@ -1,0 +1,45 @@
+body { font-family: "Droid Sans", "PT Sans Caption", arial; overflow-x:hidden;  }
+#container { width:960px; height:auto; margin:0 auto; }
+#header { text-indent:-9999px; float:left; background:url(images/header2.png); width:100%; height:89px;  background-repeat:no-repeat; }
+
+.welcome { text-align:center; float:left; width:710px; margin:0 0 0 130px; }
+
+#buttons { float:left; width:100%; height:300px; margin:40px 0 0 40px; }
+.icon { float:left; cursor:pointer; margin-left:55px; 
+	-webkit-transition: margin 0.5s ease-out; 
+	-moz-transition: margin 0.5s ease-out; 
+	-o-transition: margin 0.5s ease-out;
+}
+ 
+.icon:hover {
+    margin-top:10px;
+}
+
+.info-icon { width:228px; height:232px; background:url(images/mi-info.png); background-repeat:no-repeat; }
+.info-icon-min { width:60px; height:61px; background:url(images/mi-info-min.png); background-repeat:no-repeat; }
+
+.trabajar-icon { width:218px; height:236px; background:url(images/para-trabajar.png); background-repeat:no-repeat;}
+.trabajar-icon-min { width:60px; height:65px; background:url(images/para-trabajar-min.png); background-repeat:no-repeat;}
+
+.documentos-icon { width:231px; height:233px; background:url(images/los-documentos.png);  background-repeat:no-repeat; }
+.documentos-icon-min { width:60px; height:61px; background:url(images/los-documentos-min.png);  background-repeat:no-repeat; }
+
+.section { float:left; }
+.section ul { list-style:none; height:230px; }
+.section ul li { list-style:none; }
+.section ul li a { }
+
+.min-icon { float:left; margin-left:40px; cursor:pointer;
+	-webkit-transition: margin 0.5s ease-out; 
+	-moz-transition: margin 0.5s ease-out; 
+	-o-transition: margin 0.5s ease-out;
+}
+ 
+.min-icon:hover {
+    margin-top:5px;
+} 
+.section-icons-min { float:left; width:100%; height:70px; }
+
+#footer { float:left; width:100%; height:auto; border-top:9px solid #bf1e2e; margin-top:50px; }
+#footer a { text-decoration:none; margin-left:45px; }
+.clear { clear:both; }
