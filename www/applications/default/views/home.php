@@ -1,7 +1,7 @@
 <div class="welcome">
 	<?php if($user["language"] == "es") { ?>
 		<h2>
-			Bienvenido(a) <?php echo $user["name"];?> al Seminario: Derechos humanos, presupuestos p&uacute;blicos y poder judicial
+			Bienvenido <?php echo $user["name"];?> al Seminario: Derechos humanos, presupuestos p&uacute;blicos y poder judicial
 		</h2>
 	<?php } else { ?>
 		<h2>
