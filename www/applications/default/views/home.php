@@ -5,7 +5,7 @@
 		</h2>
 	<?php } else { ?>
 		<h2>
-			Welcome <?php echo $user["name"];?> to the Seminar: Human rights, public budgets and the judiciary
+			Welcome <?php echo $user["name"];?> to the Seminar: Human rights, public budgets and the Judiciary
 		</h2>
 	<?php } ?>
 </div>
