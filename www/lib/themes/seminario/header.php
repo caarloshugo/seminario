@@ -19,9 +19,9 @@
 				</h1>
 			</div>
 			<?php if($user["language"] == "es") { ?>
-				<a class="home" href="http://fundar.org.mx/seminario" title="Seminario: Derechos humanos, presupuestos públicos y control judicial">Sitio Web del Seminario</a>
+				<a class="home" href="http://fundar.org.mx/seminario" title="Seminario: Derechos humanos, presupuestos públicos y poder judicial">Sitio Web del Seminario</a>
 			<?php } else { ?>
-				<a class="home" href="http://fundar.org.mx/seminario" title="Seminar: Human rights, public budgets and judicial control">Seminar Website</a>
+				<a class="home" href="http://fundar.org.mx/seminario" title="Seminar: Human rights, public budgets and the judiciary">Seminar Website</a>
 			<?php } ?>
 			
 		

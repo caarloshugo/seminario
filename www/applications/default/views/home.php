@@ -1,11 +1,11 @@
 <div class="welcome">
 	<?php if($user["language"] == "es") { ?>
 		<h2>
-			Bienvenido <?php echo $user["name"];?> al Seminario: Derechos humanos, presupuestos p&uacute;blicos y control judicial
+			Bienvenido <?php echo $user["name"];?> al Seminario: Derechos humanos, presupuestos p&uacute;blicos y poder judicial
 		</h2>
 	<?php } else { ?>
 		<h2>
-			Welcome <?php echo $user["name"];?> to the Seminar: Human rights, public budgets and judicial control
+			Welcome <?php echo $user["name"];?> to the Seminar: Human rights, public budgets and the judiciary
 		</h2>
 	<?php } ?>
 </div>

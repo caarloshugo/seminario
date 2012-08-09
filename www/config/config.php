@@ -10,7 +10,7 @@ if(!defined("_access")) {
  * Website
  */
 $ZP["webURL"] 	    = "http://local.seminario.com";
-$ZP["webName"] 	    = "Seminario: Derechos humanos, presupuestos públicos y control judicial";
+$ZP["webName"] 	    = "Seminario: Derechos humanos, presupuestos públicos y poder judicial";
 $ZP["webTheme"]     = "seminario";
 $ZP["webSituation"] = "Active";
 $ZP["webMessage"]   = "";
