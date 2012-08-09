@@ -11,7 +11,7 @@
 
 	<body>
 		<div id="container">
-			<div id="header">
+			<div id="<?php echo ($user["language"] == "es") ? "header" : "header_en" ;?>">
 				<h1>
 					Segundo Seminario Internacional sobre la relaci&oacute;n 
 					entre los derechos humanos y los recursos y las pol&iacute;ticas p&uacute;blicas, 
