@@ -1,6 +1,6 @@
 <div class="welcome">
 	<h2>
-		Bienvenido Horacio Corti al Seminario: Derechos humanos, presupuestos p&uacute;blicos y control judicial
+		Bienvenido <?php echo $user["name"];?> al Seminario: Derechos humanos, presupuestos p&uacute;blicos y control judicial
 	</h2>
 </div>
 
