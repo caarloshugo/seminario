@@ -19,31 +19,31 @@
 		<ul>
 			<li>
 				<?php if($user["language"] == "es") { ?>
-					<a href="/documents/info/Programa_Seminario.docx" title="Programa">Programa</a>
+					<a href="<?php print get('webURL'); ?>/documents/info/Programa_Seminario.docx" title="Programa">Programa</a>
 				<?php } else { ?>
-					<a href="/documents/info/Seminar_Program.docx" title="Program">Program</a>
+					<a href="<?php print get('webURL'); ?>/documents/info/Seminar_Program.docx" title="Program">Program</a>
 				<?php } ?>
 			</li>
 			
 			<?php if($user["language"] == "en") { ?>
 				<li>
-					<a href="/documents/info/Welcome_Packet_Mexico_City_and_Oaxaca_IBP.pdf" title="Welcome Packet">Welcome Packet</a>
+					<a href="<?php print get('webURL'); ?>/documents/info/Welcome_Packet_Mexico_City_and_Oaxaca_IBP.pdf" title="Welcome Packet">Welcome Packet</a>
 				</li>
 			<?php } ?>
 	
 			<li>
 				<?php if($user["language"] == "es") { ?>
-					<a href="/documents/info/Logistica_Seminario_Presupuestos.pdf" title="Logistica Seminario Presupuestos">Log&iacute;stica Seminario Presupuestos</a>
+					<a href="<?php print get('webURL'); ?>/documents/info/Logistica_Seminario_Presupuestos.pdf" title="Logistica Seminario Presupuestos">Log&iacute;stica Seminario Presupuestos</a>
 				<?php } else { ?>
-					<a href="/documents/info/Logistical_Information_Mexico_City_Seminar.pdf" title="Logistical Information Mexico City Seminar">Logistical Information Mexico City Seminar</a>
+					<a href="<?php print get('webURL'); ?>/documents/info/Logistical_Information_Mexico_City_Seminar.pdf" title="Logistical Information Mexico City Seminar">Logistical Information Mexico City Seminar</a>
 				<?php } ?>
 			</li>
 
 			<li>
 				<?php if($user["language"] == "es") { ?>
-					<a href="/documents/info/Agenda_Invitados_Internacionales.pdf" title="Agenda Invitados Internacionales">Agenda Invitados Internacionales</a>
+					<a href="<?php print get('webURL'); ?>/documents/info/Agenda_Invitados_Internacionales.pdf" title="Agenda Invitados Internacionales">Agenda Invitados Internacionales</a>
 				<?php } else { ?>
-					<a href="/documents/info/Agenda_International_Participants.pdf" title="Agenda International Participants">Agenda International Participants</a>
+					<a href="<?php print get('webURL'); ?>/documents/info/Agenda_International_Participants.pdf" title="Agenda International Participants">Agenda International Participants</a>
 				<?php } ?>
 			</li>
 		</ul>
@@ -59,14 +59,14 @@
 		<ul>
 			<li>
 				<?php if($user["language"] == "es") { ?>
-					<a href="/documents/work/Caso_de_Estudio_ACIJ.pdf" title="Caso de Estudio ACIJ">Caso de Estudio ACIJ</a>
+					<a href="<?php print get('webURL'); ?>/documents/work/Caso_de_Estudio_ACIJ.pdf" title="Caso de Estudio ACIJ">Caso de Estudio ACIJ</a>
 				<?php } else { ?>
-					<a href="/documents/work/ACIJ-summary.pdf" title="ACIJ Summary">ACIJ Summary</a>
+					<a href="<?php print get('webURL'); ?>/documents/work/ACIJ-summary.pdf" title="ACIJ Summary">ACIJ Summary</a>
 				<?php } ?>
 			</li>
 			
 			<li>
-				<a href="/documents/work/LP-case-study-ACIJ.pdf" title="LP case study ACIJ">LP case study ACIJ</a>
+				<a href="<?php print get('webURL'); ?>/documents/work/LP-case-study-ACIJ.pdf" title="LP case study ACIJ">LP case study ACIJ</a>
 			</li>
 		</ul>
 		
@@ -99,19 +99,19 @@
 			</li>
 			
 			<li>
-				<a target="_blank" href="/documents/documents/Guia-de-Analisis-Presupuestario-ACIJ.pdf" title="Guía de Análisis Presupuestario ACIJ">
+				<a target="_blank" href="<?php print get('webURL'); ?>/documents/documents/Guia-de-Analisis-Presupuestario-ACIJ.pdf" title="Guía de Análisis Presupuestario ACIJ">
 					Gu&iacute;a de An&aacute;lisis Presupuestario ACIJ
 				</a>
 			</li>
 			
 			<li>
-				<a target="_blank" href="/documents/documents/Politicas-publicas-y-presupuestos-con-perspectiva-de-derechos-humanos-OACNUDH-et-al.pdf" title="Políticas públicas y presupuestos con perspectiva de derechos humanos OACNUDH">
+				<a target="_blank" href="<?php print get('webURL'); ?>/documents/documents/Politicas-publicas-y-presupuestos-con-perspectiva-de-derechos-humanos-OACNUDH-et-al.pdf" title="Políticas públicas y presupuestos con perspectiva de derechos humanos OACNUDH">
 					Pol&iacute;ticas p&uacute;blicas y presupuestos con perspectiva de derechos humanos OACNUDH
 				</a>
 			</li>
 			
 			<li>
-				<a target="_blank" href="/documents/documents/Revision-bibliografica.xlsx" title="Revisión bibliográfica">
+				<a target="_blank" href="<?php print get('webURL'); ?>/documents/documents/Revision-bibliografica.xlsx" title="Revisión bibliográfica">
 					Revisi&oacute;n bibliogr&aacute;fica
 				</a>
 			</li>
