@@ -99,19 +99,19 @@
 			</li>
 			
 			<li>
-				<a target="_blank" href="<?php print get('webURL'); ?>/documents/documents/Guia-de-Analisis-Presupuestario-ACIJ.pdf" title="Guía de Análisis Presupuestario ACIJ">
+				<a href="<?php print get('webURL'); ?>/documents/documents/Guia-de-Analisis-Presupuestario-ACIJ.pdf" title="Guía de Análisis Presupuestario ACIJ">
 					Gu&iacute;a de An&aacute;lisis Presupuestario ACIJ
 				</a>
 			</li>
 			
 			<li>
-				<a target="_blank" href="<?php print get('webURL'); ?>/documents/documents/Politicas-publicas-y-presupuestos-con-perspectiva-de-derechos-humanos-OACNUDH-et-al.pdf" title="Políticas públicas y presupuestos con perspectiva de derechos humanos OACNUDH">
+				<a href="<?php print get('webURL'); ?>/documents/documents/Politicas-publicas-y-presupuestos-con-perspectiva-de-derechos-humanos-OACNUDH-et-al.pdf" title="Políticas públicas y presupuestos con perspectiva de derechos humanos OACNUDH">
 					Pol&iacute;ticas p&uacute;blicas y presupuestos con perspectiva de derechos humanos OACNUDH
 				</a>
 			</li>
 			
 			<li>
-				<a target="_blank" href="<?php print get('webURL'); ?>/documents/documents/Revision-bibliografica.xlsx" title="Revisión bibliográfica">
+				<a href="<?php print get('webURL'); ?>/documents/documents/Revision-bibliografica.xlsx" title="Revisión bibliográfica">
 					Revisi&oacute;n bibliogr&aacute;fica
 				</a>
 			</li>
