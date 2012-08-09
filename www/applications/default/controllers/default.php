@@ -21,7 +21,7 @@ class Default_Controller extends ZP_Controller {
 			"lucia-antunez"      => array("name" => "Lucía Antunez", 	  "language" => "es", "gender" => true),
 			"ivan-marcelo"       => array("name" => "Ivan Marcelo Borja", "language" => "es"),
 			"mario-celada"       => array("name" => "Mario Celada", 	  "language" => "es"),
-			"jorge-omano"        => array("name" => "Jorge Romano", 	  "language" => "es"),
+			"jorge-romano"        => array("name" => "Jorge Romano", 	  "language" => "es"),
 			"jay-kruus"          => array("name" => "Jay Kruus",     	  "language" => "en"),
 			"elizabeth-missokia" => array("name" => "Elizabeth Missokia", "language" => "en"),
 			"john-mutua"		 => array("name" => "John Mutua", 		  "language" => "en"),
