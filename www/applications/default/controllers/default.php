@@ -14,12 +14,12 @@ class Default_Controller extends ZP_Controller {
 		$this->Templates->theme();
 		
 		$this->users = array(
-			"horacio-corti"      => array("name" => "Horacio Corti"),
-			"martin-sigal"       => array("name" => "Martín Sigal"),
-			"diego-morales"      => array("name" => "Diego Morales"),
-			"sergio-chaparro"    => array("name" => "Sergio Chaparro"),
-			"jay-kruus"          => array("name" => "Jay Kruus"),
-			"elizabeth-missokia" => array("name" => "Elizabeth Missokia")
+			"horacio-corti"      => array("name" => "Horacio Corti", "language" => "es"),
+			"martin-sigal"       => array("name" => "Martín Sigal", "language" => "es"),
+			"diego-morales"      => array("name" => "Diego Morales", "language" => "es"),
+			"sergio-chaparro"    => array("name" => "Sergio Chaparro", "language" => "es"),
+			"jay-kruus"          => array("name" => "Jay Kruus", "language" => "en"),
+			"elizabeth-missokia" => array("name" => "Elizabeth Missokia", "language" => "en")
 		);
 	}
 	
