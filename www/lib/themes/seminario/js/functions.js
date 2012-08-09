@@ -4,10 +4,10 @@ $(document).ready( function() {
 	
 	/*Info*/
 	$(".info-icon").click( function() {
-		$(".trabajar-icon").hide("slow");
+		$(".trabajar-icon").slideUp("slow");
 		
-		$(".documentos-icon").hide("slow", function() {
-			$(".info").show("slow");
+		$(".documentos-icon").slideUp("slow", function() {
+			$(".info").slideDown("slow");
 		});
 	});
 	
@@ -24,10 +24,9 @@ $(document).ready( function() {
 	
 	/*Trabajar*/
 	$(".trabajar-icon").click( function() {
-		$(".info-icon").hide("slow");
-		
-		$(".documentos-icon").hide("slow", function() {
-			$(".trabajar").show("slow");
+		$(".info-icon").slideUp("slow");
+		$(".documentos-icon").slideUp("slow", function() {
+			$(".trabajar").slideDown("slow");
 		});
 	});
 	
@@ -44,10 +43,10 @@ $(document).ready( function() {
 	
 	/*Documentos*/
 	$(".documentos-icon").click( function() {
-		$(".info-icon").hide("slow");
+		$(".info-icon").slideUp("slow");
 		
-		$(".trabajar-icon").hide("slow", function() {
-			$(".documentos").show("slow");
+		$(".trabajar-icon").slideUp("slow", function() {
+			$(".documentos").slideDown("slow");
 		});
 	});
 	
