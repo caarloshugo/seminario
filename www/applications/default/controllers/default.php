@@ -16,6 +16,7 @@ class Default_Controller extends ZP_Controller {
 		$this->users = array(
 			"horacio-corti"      => array("name" => "Horacio Corti", 	  "language" => "es"),
 			"martin-sigal"       => array("name" => "Martín Sigal", 	  "language" => "es"),
+			"helena-hofbauer"    => array("name" => "Helena Hofbauer", 	  "language" => "es", "gender" => true),
 			"diego-morales"      => array("name" => "Diego Morales", 	  "language" => "es", "flight" => "MORALES-Diego"),
 			"sergio-chaparro"    => array("name" => "Sergio Chaparro", 	  "language" => "es", "flight" => "CHAPARRO-Sergio"),
 			"lucia-antunez"      => array("name" => "Lucía Antunez", 	  "language" => "es", "gender" => true, "flight" => "ANTUNEZPERCINC-LA-Dalile"),
