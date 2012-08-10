@@ -16,16 +16,16 @@ class Default_Controller extends ZP_Controller {
 		$this->users = array(
 			"horacio-corti"      => array("name" => "Horacio Corti", 	  "language" => "es"),
 			"martin-sigal"       => array("name" => "Martín Sigal", 	  "language" => "es"),
-			"diego-morales"      => array("name" => "Diego Morales", 	  "language" => "es"),
-			"sergio-chaparro"    => array("name" => "Sergio Chaparro", 	  "language" => "es"),
-			"lucia-antunez"      => array("name" => "Lucía Antunez", 	  "language" => "es", "gender" => true),
-			"ivan-marcelo"       => array("name" => "Ivan Marcelo Borja", "language" => "es"),
-			"mario-celada"       => array("name" => "Mario Celada", 	  "language" => "es"),
-			"jorge-romano"        => array("name" => "Jorge Romano", 	  "language" => "es"),
-			"jay-kruus"          => array("name" => "Jay Kruus",     	  "language" => "en"),
-			"elizabeth-missokia" => array("name" => "Elizabeth Missokia", "language" => "en"),
-			"john-mutua"		 => array("name" => "John Mutua", 		  "language" => "en"),
-		);
+			"diego-morales"      => array("name" => "Diego Morales", 	  "language" => "es", "flight" => "MORALES-Diego"),
+			"sergio-chaparro"    => array("name" => "Sergio Chaparro", 	  "language" => "es", "flight" => "CHAPARRO-Sergio"),
+			"lucia-antunez"      => array("name" => "Lucía Antunez", 	  "language" => "es", "gender" => true, "flight" => "ANTUNEZPERCINC-LA-Dalile"),
+			"ivan-marcelo"       => array("name" => "Ivan Marcelo Borja", "language" => "es", "flight" => "BORJABORJA-Ivan-Marcelo"),
+			"mario-celada"       => array("name" => "Mario Celada", 	  "language" => "es", "flight" => "CELADA-Mario"),
+			"jorge-romano"        => array("name" => "Jorge Romano", 	  "language" => "es", "flight" => "ROMANO-Jorge"),
+			"jay-kruus"          => array("name" => "Jay Kruus",     	  "language" => "en", "flight" => "KRUUSE-Jay"),
+			"elizabeth-missokia" => array("name" => "Elizabeth Missokia", "language" => "en", "flight" => "MISSOKIA-Elizabeth"),
+			"john-mutua"		 => array("name" => "John Mutua", 		  "language" => "en", "flight" => "MUTUA-John"),
+		); 
 	}
 	
 	public function index($user = FALSE) {

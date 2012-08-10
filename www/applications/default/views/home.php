@@ -51,6 +51,16 @@
 					<a href="<?php print get('webURL'); ?>/documents/info/Agenda_International_Participants.pdf" title="Agenda International Participants">Agenda International Participants</a>
 				<?php } ?>
 			</li>
+			
+			<?php if(isset($user["flight"])) { ?>
+				<li>
+					<?php if($user["language"] == "es") { ?>
+						<a href="<?php print get('webURL'); ?>/documents/flights/<?php echo $user["flight"];?>.pdf" title="Vuelo">Vuelo</a>
+					<?php } else { ?>
+						<a href="<?php print get('webURL'); ?>/documents/flights/<?php echo $user["flight"];?>.pdf" title="Flight">Flight</a>
+					<?php } ?>
+				</li>
+			<?php } ?>
 		</ul>
 		
 		<?php if($user["language"] == "es") { ?>
