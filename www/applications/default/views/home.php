@@ -157,6 +157,19 @@
 				</a>
 			</li>
 			
+			<li class="link">
+				<a target="_blank" href="http://www.idasa.org/our_products/resources/output/monitoring_government_budgets_2/" title="Idasa, Monitoring government budgets to advance child rights">
+					Idasa, Monitoring government budgets to advance child rights
+				</a>
+			</li>
+			
+			<li>
+				<a href="<?php print get('webURL'); ?>/documents/documents/budget_guide_en.pdf" title="FAO, Budget work to advance the right to food 'Many a slip…'">
+					FAO, Budget work to advance the right to food 'Many a slip…'
+				</a>
+			</li>
+			
+			
 		</ul>
 		
 		<?php if($user["language"] == "es") { ?>
