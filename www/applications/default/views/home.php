@@ -114,14 +114,6 @@
 	<div class="section documentos">
 		<ul>
 			<li class="link">
-				<?php if($user["language"] == "es") { ?>
-					<a href="http://fundar.org.mx/seminario/" title="Sittio web del Seminari">Sittio web del Seminario</a>
-				<?php } else { ?>
-					<a href="http://fundar.org.mx/seminario/" title="Sittio web del Seminari">Seminar Website</a>
-				<?php } ?>
-			</li>
-			
-			<li class="link">
 				<a target="_blank" href="http://www.inesc.org.br/news/2012/april/budget-monitoring-from-a-human-rights-perspective" title="Budget Monitoring - From a Human Rights perspective (INESC)">
 					Budget Monitoring - From a Human Rights perspective (INESC)
 				</a>
@@ -169,7 +161,13 @@
 				</a>
 			</li>
 			
+			<li>
+				<a href="<?php print get('webURL'); ?>/documents/documents/Budget_and_rights.pdf" title="INESC, Budget and rights: developing a budget analysis method from the perspective of human rights">
+					INESC, Budget and rights: developing a budget analysis method from ...
+				</a>
+			</li>
 			
+
 		</ul>
 		
 		<?php if($user["language"] == "es") { ?>
