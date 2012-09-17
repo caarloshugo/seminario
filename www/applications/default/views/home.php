@@ -30,19 +30,9 @@
 				<?php } ?>
 			</li>
 			
-			<?php if($user["language"] == "en") { ?>
-				<li>
-					<a href="<?php print get('webURL'); ?>/documents/info/Welcome_Packet_Mexico_City_and_Oaxaca_IBP.pdf" title="Welcome Packet">Welcome Packet</a>
-				</li>
+			<?php if($user["language"] == "es") { ?>
+				<li><a href="<?php print get('webURL'); ?>/documents/info/Logistica_Seminario_Presupuestos.pdf" title="Logistica Seminario Presupuestos">Log&iacute;stica Seminario Presupuestos</a></li>
 			<?php } ?>
-	
-			<li>
-				<?php if($user["language"] == "es") { ?>
-					<a href="<?php print get('webURL'); ?>/documents/info/Logistica_Seminario_Presupuestos.pdf" title="Logistica Seminario Presupuestos">Log&iacute;stica Seminario Presupuestos</a>
-				<?php } else { ?>
-					<a href="<?php print get('webURL'); ?>/documents/info/Logistical_Information_Mexico_City_Seminar.pdf" title="Logistical Information Mexico City Seminar">Logistical Information Mexico City Seminar</a>
-				<?php } ?>
-			</li>
 
 			<li>
 				<?php if($user["language"] == "es") { ?>
@@ -166,8 +156,6 @@
 					INESC, Budget and rights: developing a budget analysis method from ...
 				</a>
 			</li>
-			
-
 		</ul>
 		
 		<?php if($user["language"] == "es") { ?>

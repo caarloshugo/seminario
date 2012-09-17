@@ -18,6 +18,7 @@ class Default_Controller extends ZP_Controller {
 			"martin-sigal"       => array("name" => "Martín Sigal", 	  "language" => "es"),
 			"mary-page"          => array("name" => "Mary R. Page", 	  "language" => "en", "gender" => true),
 			"helena-hofbauer"    => array("name" => "Helena Hofbauer", 	  "language" => "es", "gender" => true),
+			"sharon-bissell"     => array("name" => "Sharon Bissell Sotelo ", "language" => "en", "gender" => true),
 			"diego-morales"      => array("name" => "Diego Morales", 	  "language" => "es", "flight" => "MORALES-Diego"),
 			"sergio-chaparro"    => array("name" => "Sergio Chaparro", 	  "language" => "es", "flight" => "CHAPARRO-Sergio"),
 			"lucia-antunez"      => array("name" => "Lucía Antunez", 	  "language" => "es", "gender" => true, "flight" => "ANTUNEZPERCINC-LA-Dalile"),
@@ -26,7 +27,7 @@ class Default_Controller extends ZP_Controller {
 			"jorge-romano"        => array("name" => "Jorge Romano", 	  "language" => "es", "flight" => "ROMANO-Jorge"),
 			"jay-kruus"          => array("name" => "Jay Kruus",     	  "language" => "en", "flight" => "KRUUSE-Jay"),
 			"elizabeth-missokia" => array("name" => "Elizabeth Missokia", "language" => "en", "flight" => "MISSOKIA-Elizabeth"),
-			"john-mutua"		 => array("name" => "John Mutua", 		  "language" => "en", "flight" => "MUTUA-John"),
+			"john-mutua"		 => array("name" => "John Mutua", 		  "language" => "en", "flight" => "MUTUA-John")
 		); 
 	}
 	
